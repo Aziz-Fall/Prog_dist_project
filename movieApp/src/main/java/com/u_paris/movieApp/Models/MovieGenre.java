@@ -2,6 +2,11 @@ package com.u_paris.movieApp.Models;
 
 import java.util.List;
 
+/**
+ * @brief MovieGenre is a class that store a collection
+ * of genres for movies like actions, comedies and
+ * movies that are more popular.
+ */
 public class MovieGenre {
     private Movie defaultMovie;
     private List<Movie> populars;

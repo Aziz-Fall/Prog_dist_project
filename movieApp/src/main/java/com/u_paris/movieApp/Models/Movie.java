@@ -2,6 +2,10 @@ package com.u_paris.movieApp.Models;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.io.Serializable;
 
+/**
+ * @bref Get the primary information about a movie like
+ * vote average, id movie, vote account, overview ...
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Movie implements Serializable {
 

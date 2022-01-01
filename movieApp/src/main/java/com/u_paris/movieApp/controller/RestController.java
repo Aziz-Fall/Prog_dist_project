@@ -9,6 +9,17 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * @brief This controller manager the main page of the
+ * application, with the controller we recover data from
+ * the API using an API KEY stored in the properties file
+ * in the resources directory. For this application we recover
+ * some movie which a specific genre using the API. BELLOW you
+ * can see some url that store the url of genre movie like
+ * fantasy, comedy. If you wish you can add more url and do link
+ * in main page home.html and discover data using thymleaf.
+ *
+ */
 @Controller
 public class RestController {
     @Value("${app.key}")

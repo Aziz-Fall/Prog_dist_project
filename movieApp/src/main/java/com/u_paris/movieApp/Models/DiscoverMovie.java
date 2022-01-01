@@ -3,6 +3,14 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.io.Serializable;
 import java.util.List;
 
+/**
+ * @bref DiscoverMovie class discorver movies by different
+ * types of data like average rating, number of votes, genres
+ * and certifications. The movie that are discovered represent
+ * page and a page has a certain number of movies that are
+ * stored in the list results.
+ *
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class DiscoverMovie implements Serializable {
     private int page;
